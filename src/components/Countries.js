@@ -19,7 +19,7 @@ export const Countries = ({onChange}) => {
         <React.Fragment>
             <div>
                 <select name="name" onChange={handleNameChange}>
-                    {city.map(name => <option key={name.alpha3Code}><il>{name.capital}</il></option>)}
+                    {city.map(name => <option key={name.alpha3Code}>{name.capital}</option>)}
                 </select>
             </div>
         </React.Fragment>
